@@ -1,0 +1,29 @@
+<!-- result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spam Mail Classifier Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>Spam Mail Classifier</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Classification Result</h2>
+      <p id="result">{{ result }}</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Spam Mail Classifier. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
